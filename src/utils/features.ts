@@ -8,6 +8,3 @@ export const connectDB = () => {
     }).then((c) => console.log(`DB Connected ${c.connection.host}`))
         .catch((e) => console.log(e))
 };
-
-// GUfsfLOV9Ra9figO
-// mongodb+srv://zohaibsyed914:GUfsfLOV9Ra9figO@cluster0.zgbxmsz.mongodb.net/
