@@ -1,3 +1,4 @@
+import type { Request, Response } from "express"
 import type { NextFunction } from "express";
 import { TryCatch } from "./error.js";
 import ErrorHandler from "../utils/utilityclass.js";
